@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b08043e-0370-485e-95e0-b145e3acbc6b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/example/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provider/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="module-info" />
       </list>
     </option>
   </component>
@@ -52,6 +56,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -86,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682081027293</updated>
-      <workItem from="1682081028836" duration="3320000" />
+      <workItem from="1682081028836" duration="4199000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1682081879588</created>
@@ -106,7 +111,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1682327134203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="add ServiceLoader to Consumer">
+      <created>1682327584581</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1682327584581</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="add service interface&#10;add consumer class&#10;add greeting classes to provider" />
     <MESSAGE value="add service dependency to provider" />
-    <option name="LAST_COMMIT_MESSAGE" value="add service dependency to provider" />
+    <MESSAGE value="add ServiceLoader to Consumer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ServiceLoader to Consumer" />
   </component>
 </project>
