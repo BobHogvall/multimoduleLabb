@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b08043e-0370-485e-95e0-b145e3acbc6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/com/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/com/EnglishGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/com/SwedishGreeting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/service/Greeting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/example/com/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/org/example/com/EnglishGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/EnglishGreeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/src/main/java/org/example/com/SwedishGreeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/SwedishGreeting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682081027293</updated>
-      <workItem from="1682081028836" duration="2102000" />
+      <workItem from="1682081028836" duration="3103000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1682081879588</created>
@@ -80,7 +79,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1682081879588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="add service interface&#10;add consumer class&#10;add greeting classes to provider">
+      <created>1682326109464</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1682326109464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="add service interface&#10;add consumer class&#10;add greeting classes to provider" />
+    <option name="LAST_COMMIT_MESSAGE" value="add service interface&#10;add consumer class&#10;add greeting classes to provider" />
   </component>
 </project>
