@@ -2,13 +2,18 @@ package org.example.consumer;
 
 import org.example.service.Greeting;
 
+import java.util.ServiceLoader;
+
 public class Consumer {
 
     public static void main(String[] args) {
 
-        Greeting greeting;
+        ServiceLoader<Greeting> greetings = ServiceLoader.load(Greeting.class);
 
-       // System.out.println(greeting.sayHello());
+        for (var greeting : greetings) {
+            System.out.println(greeting.sayHello());
+        }
+
 
     }
 }
