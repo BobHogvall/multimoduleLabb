@@ -1,11 +1,12 @@
-import org.example.provider.SwedishGreeting;
-import org.example.provider.EnglishGreeting;
-import org.example.service.Greeting;
+import org.example.provider.Euro;
+import org.example.provider.Peso;
+import org.example.provider.Won;
+import org.example.service.CurrencyConverter;
 
 
 
 module org.example.provider {
     requires org.example.service;
-    provides Greeting with SwedishGreeting, EnglishGreeting;
+    provides CurrencyConverter with Euro, Won, Peso;
 
 }

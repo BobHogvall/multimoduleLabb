@@ -1,17 +1,25 @@
 package org.example.consumer;
 
-import org.example.service.Greeting;
+import org.example.service.CurrencyConverter;
 
+import java.util.Scanner;
 import java.util.ServiceLoader;
 
 public class Consumer {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-        ServiceLoader<Greeting> greetings = ServiceLoader.load(Greeting.class);
+        System.out.println("""
+                Currency converter.
+                Insert the amount of SEK you want to convert:""");
+        int amount = scanner.nextInt();
 
-        for (var greeting : greetings) {
-            System.out.println(greeting.sayHello());
+        ServiceLoader<CurrencyConverter> currencyConverters = ServiceLoader.load(CurrencyConverter.class);
+
+
+        for (var currencyConverter : currencyConverters) {
+            System.out.println(currencyConverter.convert(amount));
         }
 
 
