@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b08043e-0370-485e-95e0-b145e3acbc6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/Euro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/Peso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/Won.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/src/main/java/org/example/service/CurrencyConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/org/example/consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/org/example/consumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/provider/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/EnglishGreeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/provider/src/main/java/org/example/provider/SwedishGreeting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/org/example/service/Greeting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,26 +45,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_directory_selection": "/Users/bobster/Desktop/Webservices och integrationer/multimodule/consumer/src/main/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/bobster/Desktop/Webservices och integrationer/multimodule/consumer/src/main/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
@@ -85,6 +80,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Consumer" />
@@ -99,7 +98,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682081027293</updated>
-      <workItem from="1682081028836" duration="12884000" />
+      <workItem from="1682081028836" duration="13498000" />
+      <workItem from="1683461100142" duration="459000" />
+      <workItem from="1683706164864" duration="1836000" />
     </task>
     <task id="LOCAL−00001" summary="Initial commit">
       <created>1682081879588</created>
@@ -137,7 +138,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1682411093286</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="add peso, change pound to won">
+      <created>1682420984035</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1682420984035</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +157,7 @@
     <MESSAGE value="add ServiceLoader to Consumer" />
     <MESSAGE value="add module-info.java to all modules" />
     <MESSAGE value="add so everything works" />
-    <option name="LAST_COMMIT_MESSAGE" value="add so everything works" />
+    <MESSAGE value="add peso, change pound to won" />
+    <option name="LAST_COMMIT_MESSAGE" value="add peso, change pound to won" />
   </component>
 </project>
